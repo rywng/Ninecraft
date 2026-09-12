@@ -81,7 +81,7 @@
       fetchApk {
         pname = "minecraftpe";
         inherit version;
-        url = "https://archive.org/download/MCPEAlpha/PE-${version}${
+        url = "https://archive.org/download/mcpe-alpha-x86/PE-${version}${
           if (arch == "arm")
           then ""
           else "-${arch}"
